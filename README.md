@@ -52,3 +52,27 @@ To run this project, the following environment variables will be required
 ## Demo
 
 https://user-images.githubusercontent.com/75718745/141398750-b4555bff-10c7-4ec0-bdb7-83ebca30d457.mp4
+## Development of this project
+
+After [@rajatgupta24](https://github.com/rajatgupta24) proposed this project upon me, I was esctatic after that it was upon me to create a team and start developing the project with them.
+It was the first time me and my fellow team members were taking upon a backend based web development project. Although all of us had already done countless web development projects but this being the one which also required back end knowledge, we were excited to take upon this project. We had to search some documentation, look into node.js as well as express docs. Ultimately the backend stuff smooth sailed but adding css to the main page on ejs file surprisingly took a bit more time than we initially intended. But we are this happy with the project.
+
+
+## Optimizations
+
+Although the project is pretty straight forward, there are obviously some things we would like to change.
+
+We want to remove [shortID](https://www.npmjs.com/package/shortid) and use [NanoID](https://github.com/ai/nanoid/), also get a seperate css file instead of putting straight into the main file although there isn't much styling to this. But using [NanoID](https://github.com/ai/nanoid/) is the main priority.
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/233px-IEEE_logo.svg.png
+
+# Team
+
+- [@Kshitij841](https://github.com/Kshitij841)
+- [@harshitjha2001](https://github.com/harshitjha2001)
+- [@hr8tik](https://github.com/hr8tik)
+
+## Mentor
+
+- [@rajatgupta24](https://github.com/rajatgupta24)
+
