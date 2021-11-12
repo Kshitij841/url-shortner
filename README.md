@@ -54,7 +54,7 @@ To run this project, the following environment variables will be required
 https://user-images.githubusercontent.com/75718745/141398750-b4555bff-10c7-4ec0-bdb7-83ebca30d457.mp4
 ## Development of this project
 
-After [@rajatgupta24](https://github.com/rajatgupta24) proposed this project upon me, I was esctatic after that it was upon me to create a team and start developing the project with them.
+After [@rajatgupta24](https://github.com/rajatgupta24) proposed this project upon me, I was esctatic hearing this. After that it was upon me to create a team and start developing the project with them.
 It was the first time me and my fellow team members were taking upon a backend based web development project. Although all of us had already done countless web development projects but this being the one which also required back end knowledge, we were excited to take upon this project. We had to search some documentation, look into node.js as well as express docs. Ultimately the backend stuff smooth sailed but adding css to the main page on ejs file surprisingly took a bit more time than we initially intended. But we are this happy with the project.
 
 
