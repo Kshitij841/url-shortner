@@ -1,1 +1,54 @@
-# url-shortner
+
+# URL-Shortner
+
+A basic URL-Shortner running on an [Express Server](https://expressjs.com) with [Mongoose](https://mongoosejs.com) as it's database and [ejs](https://ejs.co) to amalgamate front end and back end of the site.
+
+The URL text field takes in a string and with the help of [shortID](https://www.npmjs.com/package/shortid) module which by default 7-14 url-friendly characters: A-Z, a-z, 0-9, _- . Although alternatively you can use [NanoID](https://github.com/ai/nanoid/) to achieve the same function, this helps in generating a random code of 8 characters which in turn our **URL** into a smaller *URL* which helps in easy sharing without taking too much space when sharing or even remembering it.
+
+The generated *Shortened Url* is stored in the database i.e., mongooseDB. Not only the gernerated URL is stored but it also stores how many times that URL is visited showing in *"clicks"*.
+
+Instead of manually closing the server everytime a change was made, we opted to using nodemon, which helps in implementing the changes in realtime which solves the problem of downtime while doing minor changes in the code.
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Red | ![#ee6352](https://via.placeholder.com/10/ee6352?text=+) #ee6352 |
+| Pink | ![#d16e8d](https://via.placeholder.com/10/d16e8d?text=+) #d16e8d |
+| White | ![#F7F7FF](https://via.placeholder.com/10/F7F7FF?text=+) #F7F7FF |
+| Green | ![#27A527](https://via.placeholder.com/10/27A527?text=+) #27A527 |
+| Blue | ![#002240](https://via.placeholder.com/10/002240?text=+) #002240 |
+| Yellow | ![#DAA520](https://via.placeholder.com/10/DAA520?text=+) #DAA520 |
+
+
+
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm init
+  npm i express mongoose ejs
+  npm i --save-dev nodemon
+  npm run devStart
+```
+Make sure [node.js](https://nodejs.org/en/) as well as [mongoDB](https://docs.mongodb.com/manual/installation/) is installed on your system first.
+
+
+## Environment Variables
+
+To run this project, the following environment variables will be required
+
+`const express = require('express')`
+
+`const mongoose = require('mongoose')`
+
+`const ShortUrl = require('./models/shortUrl')`
+
+
+
+## Demo
+
+https://user-images.githubusercontent.com/75718745/141398750-b4555bff-10c7-4ec0-bdb7-83ebca30d457.mp4
