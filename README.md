@@ -64,7 +64,7 @@ Although the project is pretty straight forward, there are obviously some things
 
 We want to remove [shortID](https://www.npmjs.com/package/shortid) and use [NanoID](https://github.com/ai/nanoid/), also get a seperate css file instead of putting straight into the main file although there isn't much styling to this. But using [NanoID](https://github.com/ai/nanoid/) is the main priority.
 
-https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/233px-IEEE_logo.svg.png
+![image](https://user-images.githubusercontent.com/75718745/141401670-de09a4ed-10e7-4d0e-adc1-8a9d824e8105.png)
 
 # Team
 
